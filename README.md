@@ -1,14 +1,14 @@
 ⚡ Features:
-{{__, Universal || IN BETA ,__}}
-- Camera aimbot 🎮
-- Prediction 🌐
-- Auto prediction 🌐
-- Checks ☑️
-- Player movement 🏃‍♂️
-- Antilock/Antiaim ⚡
-- Visuals 👁️
-- Player Manipulations 🏃‍♂️
-- Miscellaneous 👾
+- Player
+- Player
+- Player
+- Player
+- Player
+- Player
+- Player
+- Player
+- Player
+- Player
 
 ## 🔌Shortened Script
 ```lua
