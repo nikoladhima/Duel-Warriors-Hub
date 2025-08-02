@@ -2,7 +2,7 @@ This script has a Key System but don't worry, It's just one step and very easy! 
 
 Key System Link: https://work.ink/22hl/6vkc8x8i
 
-(This script is not recommended to be used on mobile executors because of limitations to certain functions and it can cause the Auto Skills to error)
+(This script is not recommended for mobile executors because of limitations to certain functions and it can cause the Auto Skills to error)
 
 (Scroll down for the script)
 
