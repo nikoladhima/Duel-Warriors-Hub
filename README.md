@@ -39,6 +39,6 @@ Key System Link: https://work.ink/22hl/6vkc8x8i
 
 ]=]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/nikoladhima/Duel-Warriors/refs/heads/main/Script"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/nikoladhima/Duel-Warriors-Hub/refs/heads/main/Script"))()
 ```
 <br/>
