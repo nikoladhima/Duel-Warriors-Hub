@@ -39,6 +39,6 @@ Key System Link: https://work.ink/22hl/6vkc8x8i
 
 ]=]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/nikoladhima/Combat/refs/heads/main/CombatAimbot"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/nikoladhima/Duel-Warriors/refs/heads/main/Script"))()
 ```
 <br/>
