@@ -1,4 +1,4 @@
-This script has a Key System but don't worry, It's very easy and uses WorkInk!
+This script has a Key System but don't worry, It's very easy and uses LootLabs!
 
 (Scroll down for the script)
 
