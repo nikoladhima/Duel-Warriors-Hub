@@ -1,6 +1,4 @@
-This script has a Key System but don't worry, It's just one step and very easy! (Disable AdBlocker and VPN to get key)
-
-Key System Link: https://work.ink/22hl/6vkc8x8i
+This script has a Key System but don't worry, It's very easy and uses LootLabs!
 
 (Scroll down for the script)
 
