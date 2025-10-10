@@ -1,6 +1,4 @@
-This script has a Key System but don't worry, It's very easy and uses LootLabs!
-
-(Scroll down for the script)
+Scroll down for the script)
 
 ⚡ Features:
 - Auto Use Abilities
