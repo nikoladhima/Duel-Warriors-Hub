@@ -1,4 +1,4 @@
-Scroll down for the script)
+(Scroll down for the script)
 
 ⚡ Features:
 - Auto Use Skills
