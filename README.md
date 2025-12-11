@@ -13,7 +13,6 @@ Scroll down for the script)
 - Claim Time Awards
 - GodMode (Cannot use abilities and weapon while in GodMode)
 - AntiAFK
-- 
 - AND MORE!!
 
 ## 🔌Shortened Script
