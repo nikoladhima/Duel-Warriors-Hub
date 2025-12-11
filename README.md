@@ -1,13 +1,11 @@
 Scroll down for the script)
 
 ⚡ Features:
-- Auto Use Abilities
-- Auto Use Weapon
+- Auto Use Skills
 - Autofarm (Player attaching)
-- Autofarm: Slider offsets for configuring position and BodyVelocity (Body velocity enhances autofarm)
-- Teleportation
-- (Note on Teleportation: You can teleport to in-game positions and other gamemodes)
-- CFrame Speed (Speed changer)
+- Game Teleportation
+- (Note on Game Teleportation: You can teleport to in-game positions and other gamemodes)
+- Speed Changer
 - Anti-Ragdoll
 - Forge Weapons
 - Roll Ability
@@ -15,8 +13,7 @@ Scroll down for the script)
 - Claim Time Awards
 - GodMode (Cannot use abilities and weapon while in GodMode)
 - AntiAFK
-- Close script button which makes sure that no trace of the script is left behind when closing it to prevent lag and it allows you to execute the script again
-
+- 
 - AND MORE!!
 
 ## 🔌Shortened Script
@@ -34,6 +31,6 @@ Scroll down for the script)
 
 ]=]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/nikoladhima/Duel-Warriors-Hub/refs/heads/main/Script"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/nikoladhima/Duel-Warriors-Hub/refs/heads/main/DuelWarriorsHub.lua"))()
 ```
 <br/>
