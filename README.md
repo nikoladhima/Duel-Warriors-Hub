@@ -7,12 +7,7 @@ Scroll down for the script)
 - (Note on Game Teleportation: You can teleport to in-game positions and other gamemodes)
 - Speed Changer
 - Anti-Ragdoll
-- Forge Weapons
-- Roll Ability
-- Claim Daily Tasks
-- Claim Time Awards
 - GodMode (Cannot use abilities and weapon while in GodMode)
-- AntiAFK
 - AND MORE!!
 
 ## 🔌Shortened Script
