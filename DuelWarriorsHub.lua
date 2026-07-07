@@ -484,7 +484,7 @@ Tabs.Combat:AddButton({
 })
 
 Tabs.Combat:AddToggle("SpeedToggle", {
-    Title = "Speed",
+    Title = "Speed Changer",
     Default = Configuration.Speed
 }):OnChanged(function(Value)
     Configuration.Speed = Value
