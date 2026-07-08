@@ -345,7 +345,7 @@ table.insert(Connections, RunService.Heartbeat:Connect(function()
             continue
         end
 
-        local IsVisible
+        local ESP, IsVisible = Cache.ESP, nil
         if Configuration.ESPEnabled and Cache.Head and Cache.Humanoid and Cache.Humanoid.Health > 0 then
             local Screen, OnScreen = Camera:WorldToViewportPoint(Cache.Head.Position)
             if OnScreen then
@@ -364,7 +364,6 @@ table.insert(Connections, RunService.Heartbeat:Connect(function()
                     table.insert(TextParts, string.format("[%d M]", math.floor((LocalRoot.Position - Cache.Head.Position).Magnitude)))
                 end
 
-                local ESP = Cache.ESP
                 if #TextParts > 0 then
                     ESP.Text = table.concat(TextParts, "\n")
                     ESP.Position = Vector2.new(Screen.X - 40, Screen.Y - 40)
@@ -377,7 +376,7 @@ table.insert(Connections, RunService.Heartbeat:Connect(function()
         end
 
         if not IsVisible then
-            Cache.ESP.Visible = false
+            ESP.Visible = false
         end
     end
 end))
@@ -699,30 +698,25 @@ Library:Notify({
     Duration = 2.5
 })
 
-task.spawn(function()
-    while true do
-        if Library.Unloaded then
-            Running = false
+while Library.Unloaded do
+    Running = false
 
-            if Configuration.GodMode then
-                RunGodMode(false)
-            end
-
-            for _,Cache in next, CachedPlayers do
-                RemoveDrawing(Cache.ESP)
-            end
-
-            for Index, Connection in next, Connections do
-                Connection:Disconnect()
-                Connections[Index] = nil
-            end
-
-            Camera.FieldOfView = 70
-            break
-        end
-        task.wait(0.5)
+    if Configuration.GodMode then
+        RunGodMode(false)
     end
-end)
+
+    for _,Cache in next, CachedPlayers do
+        RemoveDrawing(Cache.ESP)
+    end
+
+    for Index, Connection in next, Connections do
+        Connection:Disconnect()
+        Connections[Index] = nil
+    end
+
+    Camera.FieldOfView = 70
+    break
+end
 
 if not writefile or not makefolder or not isfile or not isfolder then
     return
@@ -744,6 +738,6 @@ if Request then
         ["Content-Type"] = "application/json", Origin = "https://discord.com"
     }, Body = HttpService:JSONEncode({cmd = "INVITE_BROWSER", nonce = HttpService:GenerateGUID(false), args = {code = "DwRT2nH93D"}})
     }) then
-        writefile("NikoletoScripts/PhantomWare/Cache/Invite.nscache", "DwRT2nH93D")
+        writefile("NikoletoScripts/DuelWarriorsHub/Cache/Invite.nscache", "DwRT2nH93D")
     end
 end
