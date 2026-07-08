@@ -699,7 +699,7 @@ Tabs.Miscellaneous:AddSlider("FOVValueSlider", {
 Window:SelectTab(1)
 Library:Notify({
     Title = "Loaded",
-    Content = "Welcome to Duel Warriors Hub (Rewritten)!",
+    Content = "Welcome to Duel Warriors Hub!",
     Duration = 2.5
 })
 
