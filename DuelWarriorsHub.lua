@@ -653,6 +653,11 @@ Tabs.Miscellaneous:AddToggle("AntiAFKToggle", {
     Configuration.AntiAFK = Value
 end)
 
+Tabs.Miscellaneous:AddParagraph({
+    Title = "God Mode",
+    Content = "If 'Deploying..' doesn't appear on ur character then make sure you haven't used or been in combat for around 15 seconds or more, God Mode will be automatically applied when possible."
+})
+
 Tabs.Miscellaneous:AddToggle("GodModeToggle", {
     Title = "God Mode",
     Default = Configuration.GodMode
@@ -701,17 +706,18 @@ Library:Notify({
 while Library.Unloaded do
     Running = false
 
+    for Index, Connection in next, Connections do
+        Connection:Disconnect()
+        Connections[Index] = nil
+    end
+    task.wait()
+
     if Configuration.GodMode then
         RunGodMode(false)
     end
 
     for _,Cache in next, CachedPlayers do
         RemoveDrawing(Cache.ESP)
-    end
-
-    for Index, Connection in next, Connections do
-        Connection:Disconnect()
-        Connections[Index] = nil
     end
 
     Camera.FieldOfView = 70
