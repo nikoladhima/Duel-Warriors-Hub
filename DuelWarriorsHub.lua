@@ -10,7 +10,7 @@
 
     -- Made by Nikoleto Scripts, if you encounter issues, open a ticket in the Discord server.
     GitHub: https://github.com/nikoladhima
-    Discord: https://discord.gg/DwRT2nH93D / @nikoleto._
+    Discord: https://discord.gg/DsGCKtxxEN / @nikoleto._
 ]]
 
 repeat task.wait() until game:IsLoaded()
@@ -695,14 +695,14 @@ if isfolder and makefolder and isfile and writefile then
         end)
     end
 
-    local Request = not isfile("NikoletoScripts/DuelWarriorsHub/Cache/Invite.nscache") and (httprequest or http_request or request)
+    local Request = not isfile("NikoletoScripts/DuelWarriorsHub/Cache/Discord.nscache") and (httprequest or http_request or request)
     if Request then
         local HttpService = game:GetService("HttpService")
         if pcall(Request, {Url = "http://127.0.0.1:6463/rpc?v=1",  Method = "POST", Headers = {
             ["Content-Type"] = "application/json", Origin = "https://discord.com"
-        }, Body = HttpService:JSONEncode({cmd = "INVITE_BROWSER", nonce = HttpService:GenerateGUID(false), args = {code = "DwRT2nH93D"}})
+        }, Body = HttpService:JSONEncode({cmd = "INVITE_BROWSER", nonce = HttpService:GenerateGUID(false), args = {code = "DsGCKtxxEN"}})
         }) then
-            writefile("NikoletoScripts/DuelWarriorsHub/Cache/Invite.nscache", "DwRT2nH93D")
+            writefile("NikoletoScripts/DuelWarriorsHub/Cache/Discord.nscache", "DsGCKtxxEN")
         end
     end
 end
